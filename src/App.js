@@ -82,14 +82,14 @@ function App() {
         budgetId={viewExpensesModalBudgetId}
         handleClose={() => setViewExpensesModalBudgetId()}
       />
-   <div className="row">
-      <div className="col-md-6">
-        <IncomeTable />
+      <div className="row">
+        <div className="col-md-6">
+          <IncomeTable />
+        </div>
+        <div className="col-md-6">
+          <ExpensesTable />
+        </div>
       </div>
-      <div className="col-md-6">
-        <ExpensesTable />
-      </div>
-    </div>
     </>
   );
 }

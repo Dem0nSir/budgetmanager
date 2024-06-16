@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardBody } from "react-bootstrap";
 
 const IncomeTable = () => {
   const [budgets, setBudgets] = useState([]);
@@ -12,7 +11,7 @@ const IncomeTable = () => {
   }, []);
   return (
     <>
-    <div className="mb-4 mx-4">
+    <div className="mb-4 mx-2 mt-4">
       <h1 className=" fs-4 mx-4 mb-2 ">Income </h1>
       <div class="mx-4 mb-8">
         <div className="d-flex justify-content-between align-items-baseline fw-normal">
